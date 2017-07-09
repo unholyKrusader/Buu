@@ -128,7 +128,7 @@ bot.on('message', function (message) {
       message.channel.send('http://imgur.com/6loHb1S')
       break
     case 'magetta21':
-      message.cahnel.send('http://imgur.com/7YCNbaS')
+      message.channel.send('http://imgur.com/7YCNbaS')
       break
     case 'kai':
       message.channel.send('Card Name | Card ID | Card Command```1.) Universe 6 Supreme Kai | BT1-022 | !kai22\n2.) Kai Attendant of Universe 6 | BT1-023 | !kai23\n' +
@@ -270,7 +270,7 @@ bot.on('message', function (message) {
       message.channel.send('http://imgur.com/jEDYkwP')
       break
     case 'gohan62':
-      message.channel('http://imgur.com/9mr0V8J')
+      message.channel.send('http://imgur.com/9mr0V8J')
       break
     case 'goten':
       message.channel.send('Card Name | Card ID | Card Command```1.) Son Goten | BT1-035 | !gohan35\n2.) Son Goten, Family of Justice | BT1-063 | !gohan63```')
@@ -304,7 +304,7 @@ bot.on('message', function (message) {
     case 'trunksp5':
       message.channel.send('http://imgur.com/MnrknCg')
       break
-    case '!bulma':
+    case 'bulma':
       message.channel.send('http://imgur.com/5P0b6ZJ')
       break
     case 'whis':
