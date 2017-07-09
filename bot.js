@@ -8,6 +8,11 @@ bot.on('ready', () => {
 
 bot.login(process.env.BOT_TOKEN)
 
+bot.on('guildMemberAdd', member => {
+  let guild = member.guild
+  guild.defaultChannel.send(`Welcome to the Dragon Ball Super Card Game server, ${member.user}!`)
+})
+
 bot.on('message', function (message) {
   if (message.author.equals(bot.user)) return
 
@@ -21,6 +26,12 @@ bot.on('message', function (message) {
       break
     case 'info':
       message.channel.send('A bot created by Zmezmer on July 8th, 2017.')
+      break
+    case 'rules':
+      message.channel.send('http://www.dbs-cardgame.com/pdf/rulemanual.pdf')
+      break
+    case 'cardlist':
+      message.channel.send('https://docs.google.com/document/d/10rsQ4ZteFzoqFT-X4E-l9vlPomfLqMzAPlfoRLU9vuI/edit')
       break
     case 'champa':
       message.channel.send('Card Name | Card ID | Card Command```1.) Leader Champa | BT1-001 | !champa1 or !champa1awakened\n2.) Destructive Terror Champa | BT1-004 | !champa4\n' +
