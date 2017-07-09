@@ -1,0 +1,22 @@
+{
+  "name": "buu",
+  "version": "1.0.0",
+  "description": "Discord bot.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zmezmer/Buu.git"
+  },
+  "author": "Zmezmer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zmezmer/Buu/issues"
+  },
+  "homepage": "https://github.com/Zmezmer/Buu#readme",
+  "dependencies": {
+    "discord.js": "^11.1.0"
+  }
+}
