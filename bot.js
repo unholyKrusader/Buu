@@ -524,7 +524,5 @@ bot.on('message', function (message) {
     case 'crusherball':
       message.channel.send('http://imgur.com/7eb3tZt')
       break
-    default:
-      message.channel.send('Invalid command.')
   }
 })
