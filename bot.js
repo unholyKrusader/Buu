@@ -423,7 +423,7 @@ bot.on('message', function (message) {
     case 'frieza':
       message.channel.send('Card Name | Card ID | Card Command```1.) Leader Frieza | BT1-083 | !frieza83 or !frieza83awakened\n2.) Leader Frieza | BT1-084 | !frieza84 or ' +
       '!frieza84awakened\n3.) Golden Frieza, The Resurrrected Terror | BT1-086 | !frieza86\n4.) Full-Power Frieza | BT1-087 | !frieza87\n5.) Frieza, Hellish Terror | BT1-088 | ' +
-      '!frieza88\n6.) Avenging Frieza | BT1-089 | !frieza89\n7.) Mecha-Frieza, The Returning Terror | BT1-090 | !frieza90```')
+      '!frieza88\n6.) Avenging Frieza | BT1-089 | !frieza89\n7.) Mecha-Frieza, The Returning Terror | BT1-090 | !frieza90\n8.) Clan of Terror Mecha Frieza | P-008 | !friezap8```')
       break
     case 'frieza83':
       message.channel.send('http://imgur.com/gQLTvOj')
@@ -451,6 +451,9 @@ bot.on('message', function (message) {
       break
     case 'frieza90':
       message.channel.send('http://imgur.com/PwlefQ7')
+      break
+    case 'friezap8':
+      message.channel.send('http://imgur.com/G9vamBw')
       break
     case 'ginyu':
       message.channel.send('Card Name | Card ID | Card Command```1.) Leader Ginyu | BT1-085 | !ginyu85\n2.) Elite Force Captain Ginyu | BT1-095 | !ginyu95```')
@@ -523,6 +526,12 @@ bot.on('message', function (message) {
       break
     case 'crusherball':
       message.channel.send('http://imgur.com/7eb3tZt')
+      break
+    case 'cell':
+      message.channel.send('http://imgur.com/7LZgxcz')
+      break
+    case 'cooler':
+      message.channel.send('http://imgur.com/ubBVuQR')
       break
   }
 })
