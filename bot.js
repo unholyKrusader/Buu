@@ -10,7 +10,7 @@ bot.login(process.env.BOT_TOKEN)
 
 bot.on('guildMemberAdd', member => {
   let guild = member.guild
-  guild.defaultChannel.send(`Welcome to the ${guild} server, ${member.user}!`)
+  guild.defaultChannel.send(`Buu turn ${member.user} into chocolate! Welcome to the ${guild} server!`)
 })
 
 bot.on('message', function (message) {
