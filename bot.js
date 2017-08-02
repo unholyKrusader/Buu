@@ -40,7 +40,7 @@ bot.on('message', function (message) {
       message.channel.send('<:Buu:328048401331781642>Haha! Buu turned you into chocolate! If you stay and chat Buu might turn you back!')
       break
     case 'help':
-      message.channel.send('```!ping\n!info\n!rules\n!cardlist\n!playonline\n!chocolate\n```')
+      message.channel.send('!ping - pong!.\n!info - basic bot info.\n!rules - links the dbs ccg rule manual.\n!cardlist - list of all the current cards.\n!playonline - how to play online!\n!chocolate - how to not be chocolate?\n')
       break
     case 'champa':
       message.channel.send('Card Name | Card ID | Card Command```1.) Leader Champa | BT1-001 | !champa1 or !champa1awakened\n2.) Destructive Terror Champa | BT1-004 | !champa4\n' +
