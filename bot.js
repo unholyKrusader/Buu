@@ -33,6 +33,15 @@ bot.on('message', function (message) {
     case 'cardlist':
       message.channel.send('https://docs.google.com/document/d/10rsQ4ZteFzoqFT-X4E-l9vlPomfLqMzAPlfoRLU9vuI/edit')
       break
+    case 'playonline':
+      message.channel.send('Check the <#330764130250260480> channel or Buu gonna turn you into candy!')
+      break
+    case 'chocolate':
+      message.channel.send('<:Buu:328048401331781642>Haha! Buu turned you into chocolate! If you stay and chat Buu might turn you back!')
+      break
+    case 'help':
+      message.channel.send('```!ping\n!info\n!rules\n!cardlist\n!playonline\n!chocolate\n```')
+      break
     case 'champa':
       message.channel.send('Card Name | Card ID | Card Command```1.) Leader Champa | BT1-001 | !champa1 or !champa1awakened\n2.) Destructive Terror Champa | BT1-004 | !champa4\n' +
       '3.) Furthering Destruction Champa | BT1-005 | !champa5\n4.) Scheming Champa | BT1-006 | !champa6\n5.) Manipulating God Champa | BT1-007 | !champa7```')
