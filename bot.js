@@ -8,11 +8,6 @@ bot.on('ready', () => {
 
 bot.login(process.env.BOT_TOKEN)
 
-bot.on('guildMemberAdd', member => {
-  let guild = member.guild
-  guild.defaultChannel.send(`Buu turn ${member.user} into chocolate! Welcome to the ${guild} server!`)
-})
-
 bot.on('message', function (message) {
   if (message.author.equals(bot.user)) return
 
@@ -37,7 +32,7 @@ bot.on('message', function (message) {
       message.channel.send('Check the <#330764130250260480> channel or Buu gonna turn you into candy!')
       break
     case 'chocolate':
-      message.channel.send('<:Buu:328050195772342273>Haha! Buu turned you into chocolate! If you stay and chat Buu might turn you back!')
+      message.channel.send('<:Buu:328050195772342273>Haha! Buu turns new people into chocolate! If you stay and chat Buu will turn you back!')
       break
     case 'help':
       message.channel.send('!ping - pong!.\n!info - basic bot info.\n!rules - links the dbs ccg rule manual.\n!cardlist - list of all the current cards.\n!playonline - how to play online!\n!chocolate - how to not be chocolate?\n')
