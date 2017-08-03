@@ -288,7 +288,7 @@ bot.on('message', function (message) {
       message.channel.send('http://imgur.com/9mr0V8J')
       break
     case 'goten':
-      message.channel.send('Card Name | Card ID | Card Command```1.) Son Goten | BT1-035 | !gohan35\n2.) Son Goten, Family of Justice | BT1-063 | !gohan63```')
+      message.channel.send('Card Name | Card ID | Card Command```1.) Son Goten | BT1-035 | !goten35\n2.) Son Goten, Family of Justice | BT1-063 | !goten63```')
       break
     case 'goten35':
       message.channel.send('http://imgur.com/WIHomZj')
