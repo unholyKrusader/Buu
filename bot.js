@@ -34,6 +34,12 @@ bot.on('message', function (message) {
     case 'help':
       message.channel.send('!ping - pong!.\n!info - basic bot info.\n!rules - links the dbs ccg rule manual.\n!cardlist - list of all the current cards.\n!playonline - how to play online!')
       break
+    case 'harassment':
+      message.channel.send('https://media.giphy.com/media/3o7TKQ4kfwUsmZRc1G/giphy.gif')
+      break
+    case 'pillar':
+      message.channel.send('http://imgur.com/38VrJ2X')
+      break
     case 'champa':
       message.channel.send('Card Name | Card ID | Card Command```1.) Leader Champa | BT1-001 | !champa1 or !champa1awakened\n2.) Destructive Terror Champa | BT1-004 | !champa4\n' +
       '3.) Furthering Destruction Champa | BT1-005 | !champa5\n4.) Scheming Champa | BT1-006 | !champa6\n5.) Manipulating God Champa | BT1-007 | !champa7```')
