@@ -374,7 +374,7 @@ bot.on('message', function (message) {
     case 'broly':
       message.channel.send('Card Name | Card ID | Card Command```1.) Leader Broly | BT1-057 | !broly57 or !broly57awakened\n2.) Broly, The Rampaging Horror | BT1-073 | !broly73\n' +
       '3.) Rampaging Lifeform Bio-Broly | BT1-074 | !broly74\n4.) Rampaging Super Saiyan Broly | BT1-075 | !broly75\n5.) Broly, Dawn of the Rampage | BT1-076 | !broly76\n' +
-      '6.) Broly, The Unstoppable Horror | P-006 | !brolyp6```')
+      '6.) Broly, The Unstoppable Horror | P-006 | !brolyp6\n7.) Broly\'s Ring | BT1-081 | !brolysring```')
       break
     case 'broly57':
       message.channel.send('http://imgur.com/JvAMAjD')
