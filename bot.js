@@ -272,7 +272,7 @@ bot.on('message', function (message) {
       message.channel.send('http://imgur.com/DgqaGQ6')
       break
     case 'gohan':
-      message.channel.send('Card Name | Card ID | Card Command```1.) Mighty Striker Son Gohan | BT1-034 | !gohan34\n2.) Leader Son Gohan | BT1-058 | !gohan58\n3.)' +
+      message.channel.send('Card Name | Card ID | Card Command```1.) Mighty Striker Son Gohan | BT1-034 | !gohan34\n2.) Leader Son Gohan | BT1-058 | !gohan58 or !gohan58awakened\n3.)' +
       ' Friend-Summoning Son Gohan | BT1-061 | !gohan61\n4.) Son Gohan, Family of Justice | BT1-062 | !gohan62```')
       break
     case 'gohan34':
